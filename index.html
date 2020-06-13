@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Eruptious Games - Bootstrap</title>
+</head>
+
+<body>
+
+    <!-- ================================================================================ -->
+
+    <div class="text-center mb-2">
+        <img src="EGLogo.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <!-- ================================================================================ -->
+
+    <!-- MAIN -->
+    <ul class="nav justify-content-center eg-bg-orange mb-3">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Meet The Team</a>
+            <div class="dropdown-menu eg-bg-orange">
+                <a class="dropdown-item" href="#">Terence Barrington, CEO</a>
+                <a class="dropdown-item" href="#">Employee</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Games</a>
+            <div class="dropdown-menu eg-bg-orange">
+                <a class="dropdown-item" href="#">Krypto-Nine</a>
+                <a class="dropdown-item" href="#">Game #</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Game Invention</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Partners</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+    </ul>
+
+
+    <!-- ================================================================================ -->
+
+    <!-- Main -->
+    <div class="card text-center eg-bg-black-border mb-5">
+        <h5 class="card-header eg-bg-green">WHAT EXACTLY DO WE DO?</h5>
+        <div class="card-body eg-bg-black">
+            <h5 class="card-title mt-0">Eruptious Games Mission Statement</h5>
+            <p class="card-text">When people discover us, we often get the question: "What exactly does Eruptious Games do?" or, "Eruptious Games.. cool name, but what service do you provide?" While we could give a simple answer like "We publish games", or "We review games"....
+                We honestly couldn't be truly satisfied in just doing one thing! </p>
+        </div>
+    </div>
+
+    <!-- =====test=========================================================================== -->
+
+
+    <!-- Footer -->
+    <footer class="row">
+        <!-- This will be a little paragraph describing the site or whatever. -->
+        <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ipsum quos, dolores itaque magni ratione qui laudantium accusantium nemo numquam necessitatibus, dicta alias deleniti, quae doloremque tenetur corporis aliquam cum.</div>
+        <!-- These will be some links to navigate the site. -->
+        <div class="col-md-4">LINKS
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+            </ul>
+        </div>
+        <!-- These will be our social media icons -->
+        <div class="col-md-4">Social Media
+            <ul>
+                <li><i></i> Instagram</li>
+                <li><i></i> Facebook</li>
+                <li><i></i> Twitter</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- ================================================================================ -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
+
+<!-- Notes
+
+In bootstrap everything goes in a container, in this case container-fluid. 
+
+to make an image responsive include the tag img-responsive in the img element.
+
+Bootstrap: Center Text with Bootstrap
+
+    text-center class to a text element
+
+Bootstrap: Create a Bootstrap Button
+
+    to make a bootstrap button, include the class btn and btn-default to get the style of button.
+
+Bootstrap: Create a Block Element Bootstrap Button
+
+    If we include the class btn-block, the button will stretch the entire horizon and push any elements that follow it to
+    a new line.
+
+Bootstrap Rainbow Buttons
+    comes with a lot of different default stylings such as btn-primary and btn-info
+
+Bootstrap: Use the Bootstrap Grid to Put Elements Side By Side
+
+    col-md-* class. Here, md means medium, and * is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
+
+    bootstrap grid system: 12 columns, the md in col-md specifies the size of that column, and the number how many columns wide theelement is
+
+Bootstrap: Use a span to Target Inline Elements
+
+    <span> makes it so we can add stylings inline. for example <p>blah blah blah <span> DOY </span></p>
+
+Bootstrap: Create a Custom Heading
+
+    In this lesson we used the row class and col-xs-8 to specify column width for each element
+
+Bootstrap: Add Font Awesome Icons to our Buttons
+
+Font Awesome is a convenient library of icons. These icons can be webfonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
+
+Bootstrap: Responsively Style Radio Buttons--
+
+Bootstrap: Line up Form Elements Responsively with Bootstrap
+
+    This showed we can use the row and col-xs-* on form elements
+
+Bootstrap: Create Bootstrap Wells
+
+==========JQUERY ===========
+
+If we want the html to load before we run the scripts for our website we need to include:
+
+$(document).ready(function() {})
+
+It would seem $() is what we use to target stuff like the document and element.
+    then we have a method that acts upon that element such as .ready() which accepts parameters.. in thise case a function.
+
+We can target
+    elements, classes, ids
+    (element)
+    (.class)
+    (#id)
+
+What you giveth can be taken awayeth
+
+    You can remove classes with jquery .removeClass()
+
+Changing the CSS of an element with Jquery
+
+    Simply target the element/class/id and use the method .css()
+
+    it accepts two string params.
+
+    .css('property', 'value')
+    .css('color','red')
+
+jQuery: Disable an Element Using jQuery
+
+    .prop() accepts two parameters, 
+    .prop('disabled', true)
+
+Modifying elements with Jquery
+
+    .html and .text replace stuff
+
+    .html you can add tags, and straight up replace everything
+
+    .text is just the text.
+
+Removing Elements
+
+    You can remove an element with the .remove() method. It removes the element you target with $()
+
+Use appendTo to Move Elements with jQuery
+
+    It's possible to move an element from one to to another using .appendTo() where you put the string that ids the new div
+
+Cloning
+    You can clone an element and place it into another div, .clone() -- additionally you can function chain with appendTo
+
+Target the parent
+
+    Target and use method .parent() as well as .child() to get target's children
+
+
+
+-->

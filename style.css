@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.col-md-4 {
+    color: white;
+}
+
+.eg-bg-orange {
+    background-color: #f4be17;
+}
+
+.eg-bg-green {
+    background-color: #01a8ab;
+}
+
+.eg-bg-black {
+    background-color: black;
+}
+
+.eg-bg-black-border {
+    border: black;
+}
+
+a {
+    color: black;
+}
