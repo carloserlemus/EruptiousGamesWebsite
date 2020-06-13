@@ -11,11 +11,12 @@ body {
 }
 
 .eg-bg-green {
-    background-color: #01a8ab;
+    background-color: #01a8ab83;
 }
 
 .eg-bg-black {
-    background-color: black;
+    background-color: rgb(46, 46, 46);
+    color: white;
 }
 
 .eg-bg-black-border {
@@ -24,4 +25,8 @@ body {
 
 a {
     color: black;
+}
+
+i {
+    margin: 10px;
 }
