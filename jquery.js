@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    
+$("button").click(function() {
+    $("").animate({ left: '250px' });
 });
