@@ -30,3 +30,11 @@ a {
 i {
     margin: 10px;
 }
+
+.carousel-inner img {
+    max-height: 500px;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
