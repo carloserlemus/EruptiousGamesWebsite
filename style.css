@@ -1,9 +1,10 @@
-body {
-    background-color: black;
+html {
+    margin: 0;
+    padding: 0;
 }
 
-.col-md-4 {
-    color: white;
+body {
+    background-color: black;
 }
 
 .eg-bg-orange {
