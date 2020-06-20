@@ -1,14 +1,20 @@
 html,
 body {
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9fbff;
 }
 
-.eg-bg-orange {
-    background-color: #f4be17;
+.border-bottom {
+    border-width: 4px !important;
+    border-color: #f44a4b !important;
 }
 
-.eg-bg-green {
-    background-color: #01a8ab83;
+.eg-bg-colour2 {
+    background-color: #31cbff;
+}
+
+.eg-bg-colour3 {
+    background-color: #ffd130;
 }
 
 .eg-bg-black {
